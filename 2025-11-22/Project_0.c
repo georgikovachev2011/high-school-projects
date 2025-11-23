@@ -8,14 +8,14 @@ void main() {
     int c;
 
     printf("Enter a number: ");
-    scanf("%d",&a);
+    scanf("%d", &a);
 
     printf("Enter another number: ");
-    scanf("%d",&b);
+    scanf("%d", &b);
 
-    a = c;
-    b = a;
     c = a;
+    a = b;
+    b = c;
 
-    printf("%d and %d" , a , b);
+    printf("%d and %d", a, b);
 }
