@@ -1,0 +1,6 @@
+#ifndef HIGH_SCHOOL_PROJECTS_HELPERS_H
+#define HIGH_SCHOOL_PROJECTS_HELPERS_H
+
+int get_int_input(char * prompt);
+
+#endif //HIGH_SCHOOL_PROJECTS_HELPERS_H
